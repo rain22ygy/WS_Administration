@@ -66,7 +66,8 @@ function findUserList(name,startPage,department){
                     if(upload==""||upload==null){
                         upload="用户没有上传图片"
                     }else{
-                        upload+="<img src='http://localhost:8080/WS_Administration/upload/"+user[i].upload+"' alt=''style='height:20px;width: 75px' class='imgShow'/>"
+                        upload+="<img src='http://localhost/:8080/WS_Administration/upload/"+user[i].upload+"' alt=''style='height:20px;width: 75px' class='imgShow'/>"
+                        // upload+="<img src='http://119.96.82.181:8081/WS_Administration/upload/"+user[i].upload+"' alt=''style='height:20px;width: 75px' class='imgShow'/>"
                     }
                     html+="<tr>"+
                         "<td className='a13 xd'><input id='"+user[i].id+""+user[i].phone+"' type='checkbox' name='checkbox' value='checkbox'onclick='deleteUser(\""+user[i].id+"\","+user[i].phone+")'/></td>"+
