@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>武商网管理系统</title>
+<link rel="stylesheet" type="text/css" href="../css/Login.css" />
+<link rel="shortcut icon" href="./css/favicon.ico?v=1.0">
+<script type="text/javascript" src="../js/jquery.js">
+</script><script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript" src="../js/Login.js" ></script>
+
+
+</head>
+<body>
+<div id="wrap">
+  <div id="Login">
+    <div class="box">
+      <p class="a01"><img src="../images/wx.png" alt="武商网后台数据系统" style="height: 130px;margin-top: -20px"/></p>
+      <dl>
+        <dt>欢迎使用</dt>
+        <dd>欢迎使用武商网管理系统</dd>
+      </dl>
+      <table width="325" summary="登录页面" class="a02">
+<!--        <tr>-->
+<!--          <th width="56">用户名：</th>-->
+<!--          <td colspan="2"><input name="input" type="text" value="" class="a03"placeholder="name" required="required"/></td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+          <th width="56">号码：</th>
+          <td colspan="2"><input name="input" type="text" value="" class="a06"placeholder="phone" required="required"/></td>
+        </tr>
+        <tr>
+          <th>密  &nbsp;码：</th>
+          <td colspan="2"><input name="input" type="password" value="" class="a04" placeholder="password" required="required"/></td>
+        </tr>
+          <tr>
+              <th>验证码：</th>
+              <td colspan="2"><input name="input" type="text" class="a05" id="vcode"/>
+                  <img src="../../vcode" onclick="this.src='../../vcode?'+Math.random();"/><span style="color:#0557BD;">看不清，换一张</span></td>
+          </tr>
+        <tr>
+        <tr>
+          <th style="padding-top:0; padding-bottom:15px;">&nbsp;</th>
+          <td style="padding-top:0; padding-bottom:15px;"><input name="" type="checkbox" value=""/></td>
+          <td style="padding-top:0; padding-bottom:15px;">下次自动登录(?)</td>
+        </tr>
+        <tr>
+          <th>&nbsp;</th>
+          <td></td>
+          <td class="login"><!--<a href="index.html">--><img src="../images/login06.jpg" alt="登录"  /><!--</a>--></td>
+        </tr>
+      </table>
+    </div>
+    <!-- #main-->
+  </div>
+  <!--container-->
+</div>
+<!--#wrap-->
+
+</body>
+</html>

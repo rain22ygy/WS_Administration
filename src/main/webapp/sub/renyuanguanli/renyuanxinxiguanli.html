@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>人员信息管理</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+<style type="text/css" >
+<!--
+.STYLE2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+-->
+</style>
+  <script src="../js/jquery.js" type="text/javascript"></script>
+  <script src="../js/renyuanguanli/findUser.js" type="text/javascript"></script>
+</head>
+<body class="bodybg01">
+<div id="content">
+  <table width="100%" class="a01">
+    <tr>
+      <td width="8%" style="text-align:right;">当前位置：</td>
+      <td width="3%">首页</td>
+      <td width="1%">&gt;</td>
+      <td width="5%"><a href="#">人员管理</a></td>
+      <td width="1%">&gt;</td>
+      <td>人员信息管理 </td>
+    </tr>
+  </table>
+  <table width="100%" class="a06" >
+    <tr>
+      <td width="25">&nbsp;</td>
+      <td width="63"><img src="../images/shanchu.jpg" alt=" " class="deleUser"/></td>
+      <td width="65"><a href="renyuanxinxiguanlixinzeng.html"><img src="../images/xinzeng.jpg" alt=" "  /></a></td>
+      <td width="71"><a href="shangpinfenleiguanlixz.html"></a></td>
+      <td></td>
+      <td width="118">&nbsp;</td>
+      <td width="134">
+        <input name="" type="text" value=""  placeholder="根据姓名模糊查询" class="a08" id="findUserByName"/>
+        <input name="" type="text" value=""  placeholder="根据部门进行模糊查询" class="a08" id="findUserByDeptN"/></td>
+      <td width="166"><img  src="../images/sosuo.jpg" alt=" " id="search"/></td>
+    </tr>
+  </table>
+  <div class="shdlr">
+    <table width="100%" class="a08">
+      <thead class="thead">
+      <tr>
+        <!--        regname,phone,sex,age,wsid,upload,regtime,department,password,address-->
+        <th width="2%"  class="xd">选定</th>
+        <th width="5%">人员编号</th>
+        <th width="5%">姓名</th>
+        <th width="3%">电话</th>
+        <th width="4%">性别</th>
+        <th width="10%">年龄</th>
+        <th width="4%">武商网ID</th>
+        <th width="4%">照片</th>
+        <th width="7%">注册时间</th>
+        <th width="5%">部门ID</th>
+        <th width="5%">部门</th>
+        <th width="4%">地址</th>
+        <th width="7%">操作</th>
+      </tr>
+      </thead>
+      <tbody class="userInfo">
+
+      </tbody>
+    </table>
+<table width="100%" class="qx">
+  <tr>
+    <td width="3%" style="text-align:center;"><input type="checkbox" name="checkbox32" value="checkbox"/></td>
+    <td>全选</td>
+    </tr>
+</table>
+    <div class="pagemsg">
+      <div class="pageicon">
+        <div class="prev step-backward">
+          <i class="fa fa-step-backward" aria-hidden="true"></i>
+        </div>
+        <div class="prev chevron-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="NUM">
+          <select class="pages pageSelect" style="width:80px; ">
+            <option  value="volvo">1</option>
+          </select>
+        </div>
+        <div class="prev chevron-right">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+        <div class="prev step-forward">
+          <i class="fa fa-step-forward" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="totalpage">
+            <span>
+                Total Pages：
+            </span>
+        <span class="pages pageNum">
+                10
+            </span>
+        <span>
+                Total Records:
+            </span>
+        <span class="totals">
+                200
+            </span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

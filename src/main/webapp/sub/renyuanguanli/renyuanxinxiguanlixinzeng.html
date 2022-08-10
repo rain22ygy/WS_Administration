@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>人员新增</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+
+</head>
+<body class="bodybg01">
+<div id="content">
+
+  <table width="100%" class="a01">
+    <tr>
+      <td width="8%" style="text-align:right;">当前位置：</td>
+      <td width="3%">首页</td>
+      <td width="1%">&gt;</td>
+      <td width="5%"><a href="#">人员管理</a></td>
+      <td width="1%">&gt;</td>
+      <td>人员信息管理新增</td>
+    </tr>
+  </table>
+  <table width="100%" class="a02">
+    <tr>
+      <td width="5%" style="text-align:right;"><img src="../images/tubiao.jpg" alt=" " /></td>
+      <td width="1%"></td>
+      <td width="94%"><strong>人员信息管理新增</strong></td>
+    </tr>
+  </table>
+  <div class="shdlr">
+    <!--    <form  id="bike" class='regist_from' enctype="multipart/form-data" method="post">-->
+    <table width="800" style="margin-left:58px;" class="a24" border="0">
+      <tr>
+        <td width="15%" style="text-align:right; padding-right:10px;">人员编号：</td>
+        <td width="25%" colspan="2"><input name="id" type="text" id="id" class="a22" placeholder="id编号自动生成不可修改" readonly="readonly"/></td>
+        <td  rowspan="11" align="left"><img src="../images/wx.png" alt="" width="300" height="300" class="uploadShow"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">注册时间：</td>
+        <td colspan="2"><input name="regtime" type="text" class="a22" value="" id="regtime"placeholder="自动获取当前时间" readonly="readonly"/></td>
+      </tr>
+      <tr>
+      <tr>
+        <!--        regname,phone,sex,age,wsid,upload,regtime,department,password,address-->
+        <td style="text-align:right; padding-right:10px;">真实姓名：</td>
+        <td colspan="2"><input name="regname" type="text" class="a22" value="" id="regname"  required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">电话：</td>
+        <td colspan="2"><input name="phone" type="text" class="a22" value="" id="phone"  required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">性别：</td>
+        <td colspan="2"><input name="sex" type="text" value="" class="sex" id="sex" required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">年龄：</td>
+        <td colspan="2"><input name="age" type="text" class="a22" value="" id="age"  required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">武商网ID：</td>
+        <td colspan="2"><input name="wsid" type="text" class="a22"  value="" id="wsid" required="required"/></td>
+      </tr>
+            <tr>
+              <td style="text-align:right; padding-right:10px;">人员照片：</td>
+              <td colspan="2"><input name="upload" type="file" style=" width:228px; line-height:20px; height:20px; border:1px solid #DBDBDB;"  accept="image/gif, image/jpg, image/png, image/jpeg, image/JPEG, image/JPG, image/PNG"  value="" id="upload" src=""  required="required"/></td>
+            </tr>
+
+      <td style="text-align:right; padding-right:10px;">部门ID：</td>
+      <td colspan="2"><input name="deptId" type="text" class="a22" value="" id="deptId"  required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">密码：</td>
+        <td colspan="2"><input name="password" type="text" class="a22" value="" id="password"  required="required"/></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">部门名称：</td>
+        <td colspan="2"><input name="department" type="text" class="a22" value="" id="department" required="required"/></td>
+      </tr>
+      <tr>
+        <td style="text-align:right; padding-right:10px;">地址：</td>
+        <td colspan="3"><input name="address" type="text" class="a11"  value="" id="address" required="required"/></td>
+      </tr>
+
+    </table>
+    <table width="100%" style="margin-bottom:20px;">
+      <tr>
+        <td width="16%"></td>
+        <td width="11%" >
+          <!--          <input class='submit_btn' type="submit" id="a1" value="信息提交" style="width: 110px;height: 34px;font-size: 16px"/>&ensp;-->
+        <td width="11%"><a href="#"><img src="../images/querentijiao.jpg" alt=" " class="submit"/></a></td>
+        </td>
+
+        <td width="13%"><img src="../images/quxiaofanhui.jpg" alt=" " class="cancal"/></td>
+        <td width="60%"></td>
+      </tr>
+    </table>
+    <!--  </form>-->
+  </div>
+
+</div>
+</body>
+<script src="../js/jquery.js" type="text/javascript"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<!--<script type="text/javascript" src="../js/renyuanguanli/registImg.js"></script>-->
+<script src="../js/renyuanguanli/upAanReUser.js" type="text/javascript"></script>
+</html>
