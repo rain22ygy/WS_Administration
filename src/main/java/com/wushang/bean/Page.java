@@ -1,6 +1,7 @@
 package com.wushang.bean;
 
 public class Page {
+    //判断分页
     private Integer startPage;
     private Integer pageSize;
     private Integer total;
